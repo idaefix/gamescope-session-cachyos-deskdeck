@@ -11,7 +11,7 @@ do_repair() {
 
   echo >&2 "steam-short-session-tracker: Re-bootstrapping steam from OS copy."
   # at this point, might as well make sure we won't relaunch on a sideloaded build
-  rm -f -- "$HOME/devkit-game/devkit-steam"
+  # rm -f -- "$HOME/devkit-game/devkit-steam" # This will be annoying for the moment
   mkdir -p ~/.local/share/Steam
   # remove some caches and stateful things known to cause Steam to fail to start if corrupt
   rm -rf --one-file-system ~/.local/share/Steam/config/widevine
