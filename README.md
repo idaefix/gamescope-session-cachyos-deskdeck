@@ -1,7 +1,7 @@
 This fork is mostly a personal setup and learning attempt. Any relevant suggestion or advise is greatly welcome.
 This project aims at:
 - Making the CachyOS gamescope session more store-agnostic while retaining the advantages of the Steam ecosystem, with dynamic support for alternative frontends.
-- Enabling seamless switching between a UWSM-managed wayland session and gamescope while retaining background functionalities of pc game launchers.
+- Enabling seamless switching between a UWSM-managed wayland session and gamescope to gracefully handle relevant process-trees start/stop while retaining untouched background functionalities of pc game launchers.
 - Providing a simple and lightweight switcher for gaming frontends and sessions.
 
 TO DO:
